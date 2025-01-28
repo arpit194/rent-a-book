@@ -46,6 +46,7 @@ const ImageUpload = ({
       description: "Your image could not be uploaded. Please try again.",
       variant: "destructive",
     });
+    setUploading(false);
   };
 
   const onSuccess = (res: any) => {
